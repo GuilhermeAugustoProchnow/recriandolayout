@@ -1,0 +1,139 @@
+body {
+    font-family: Open Sans;
+    margin: 0;
+    padding: 0;
+    min-height: 100hv;
+    background: #2C2B3D;
+}
+
+.container {
+    width: 1090px;
+    margin: auto;
+    padding-top: 70px;
+}
+
+/* estilo da menu e logo do cabegçalho */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+ul {
+    display: flex;
+    gap: 64px;
+    list-style: none;
+    font-family: JetBrains Mono;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 28px;
+}
+
+ul a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+ul a:hover {
+    font-weight: bold;
+    
+}
+
+
+/* estilo da menu e logo do cabegçalho */
+
+
+/* estilo da menu e setion */
+main {
+    display: flex;
+    gap:82px;
+    justify-content: space-between;
+    justify-content: center;
+    
+    
+    
+
+}
+
+section {
+    width: 640px;
+    text-align: center;
+   
+}
+
+section h1 {
+    color: #FFF;
+    
+    font-family: JetBrains Mono;
+    font-size: 36px;
+    font-weight: normal;
+    line-height: 40px; 
+}
+
+section h1 span {
+    color: #00BFA6;
+    font-weight: bold;
+}
+
+section p {
+    color: #C2C2C2;
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 28px; 
+    margin-top: 60px;
+    margin-bottom: 170px;
+}
+
+section p span {
+    color: #00BFA6;
+    font-weight: bold;
+}
+
+main img {
+    width: 401px;
+    height: 283px;
+}
+
+/* estilo da menu e setion */
+
+/* estilo da line e footer */
+
+#line {
+    width: 568.001px;
+    height: 0;
+    border-top: solid 1px  #00BFA6;
+    margin: auto;
+}
+
+footer {
+    color: #FFF;
+    text-align: center;
+    font-family: JetBrains Mono;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px; 
+    margin-top: 27px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFF;
+   
+}
+
+
+
+/* estilo da line e footer */
+
+#lock {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+
